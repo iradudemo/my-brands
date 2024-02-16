@@ -105,7 +105,7 @@
 }
 .bg {
   background: url("/images/homeImg.svg");
-  background-size: contain;
+  background-size: fit;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -118,4 +118,8 @@
   font-size: 18px;
   font-weight: bold;
   font-style: italic;
+}
+a {
+  text-decoration: none;
+  color: #fff;
 }
