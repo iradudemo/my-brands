@@ -123,3 +123,48 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+.main-bar-about {
+  overflow-y: auto;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+}
+
+.main-bar-about .left {
+  width: 50%;
+  padding-top: 40px;
+}
+
+.left .bg {
+  background: url("/images/Img.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 430px;
+  width: 430px;
+  margin-top: 70px;
+}
+.left h3 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
+}
+.left h1 {
+  text-transform: uppercase;
+}
+.info-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.info-pic h1 {
+  font-size: 48px;
+  background: -webkit-linear-gradient(right, #ffb147, #ff6c63, #b86adf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
