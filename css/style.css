@@ -134,10 +134,13 @@ a {
 }
 
 .main-bar-about .left {
-  width: 50%;
+  width: 30%;
   padding-top: 40px;
 }
-
+.left-bar {
+  height: 100vh;
+  overflow-y: auto;
+}
 .left .bg {
   background: url("/images/Img.svg");
   background-size: cover;
@@ -160,11 +163,206 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 100%;
 }
 .info-pic h1 {
   font-size: 48px;
   background: -webkit-linear-gradient(right, #ffb147, #ff6c63, #b86adf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.info-pic p {
+  font-size: 24px;
+}
+.download-icon {
+  background: url("/images/north_east1.svg");
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.download-cv {
+  display: flex;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.download-cv span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.main-bar-about .right {
+  width: 70%;
+  padding-top: 10%;
+  padding-right: 10%;
+  margin-left: 10%;
+}
+.right .details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  font-size: 18px;
+  border-bottom: 2px solid #e3e3e3;
+}
+.details div {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.comm {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: url("/images/Icon.svg");
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.contactIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: url("/images/contact.svg");
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.messageIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: url("/images/message.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.locationIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: url("/images/loc.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.right .exp-year {
+  margin-top: 40px;
+
+  width: 50%;
+  margin-right: 50px;
+}
+
+.exp-year .title {
+  display: flex;
+  align-items: center;
+}
+.exp-year .title .num {
+  font-size: 48px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(right, #ffb147, #ff6c63, #b86adf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.exp-year .title .num-title {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 30px;
+  margin-left: 15px;
+}
+.exp-year p span {
+  color: #b86adf;
+}
+.exp-year-container {
+  display: flex;
+}
+
+.exp-year p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.quote {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 50px;
+  margin-top: 70px;
+}
+.quote p {
+  font-size: 20px;
+  line-height: 32px;
+  padding-left: 10px;
+  font-style: italic;
+  font-weight: 700;
+}
+.quoteIcon {
+  width: 100px;
+  height: 90px;
+  background: url("/images/ri_double-quotes-r.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer {
+  margin-top: 60px;
+  background: -webkit-linear-gradient(right, #ffb147, #ff6c63, #b86adf);
+  padding: 5%;
+  color: #fff;
+  display: flex;
+  width: 86%;
+}
+.exp-footer {
+  width: 30%;
+}
+.exp-footer button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  padding: 15px 20px;
+  margin-top: 50px;
+}
+.exp-footer h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.exp-footer h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 900;
+}
+.exp-footer p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.exp-footer-right {
+  width: 70%;
+  margin-left: 15%;
+  border-bottom: 2px solid #e3e3e3;
+  height: 120px;
+}
+
+.exp-footer-right h2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.exp-footer-right h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 900;
+}
+.job {
+  display: flex;
+  justify-content: space-between;
 }
