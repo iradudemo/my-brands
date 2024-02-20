@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my brand | works</title>
+    <title>my brand | Blogs</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -21,26 +21,55 @@
           <li><a href="/signIn.html">SIgn-in</a></li>
         </ul>
       </div>
-      <div class="main-bar">
-        <div class="left">
-          <div class="div">
-            <span class="text-left"
-              >my name is <strong>Jean Claude</strong></span
-            >
-            <p><strong>Full stack developer</strong> based in Kigali</p>
+      <div class="main-bar-blog">
+        <h3>Blogs</h3>
+        <h1>Read my blog</h1>
+        <div class="blog-container hidden">
+          <div class="blog-card" onclick="showFullBlog(this)">
+            <img
+              src="/images/blog1.png"
+              class="blog-card-img"
+              alt=""
+              srcset=""
+            />
+            <div class="date-comment">
+              <span class="date">10 July,2022</span>
+              <span class="comment">2 comments</span>
+            </div>
+            <p class="blog-title">12 unique example of portfolio websites</p>
           </div>
-          <button>
-            let's talk with me
-            <div class="north-east"></div>
-          </button>
-          <div class="contact">
-            <div>+25 078 084 80 40</div>
-            <div>iradukundaj15@gmail.com</div>
+          <div class="blog-card">
+            <img
+              src="/images/blog1.png"
+              class="blog-card-img"
+              alt=""
+              srcset=""
+            />
+            <div class="date-comment">
+              <span class="date">10 July,2022</span>
+              <span class="comment">2 comments</span>
+            </div>
+            <p class="blog-title">12 unique example of portfolio websites</p>
+          </div>
+          <div class="blog-card">
+            <img
+              src="/images/blog1.png"
+              class="blog-card-img"
+              alt=""
+              srcset=""
+            />
+            <div class="date-comment">
+              <span class="date">10 July,2022</span>
+              <span class="comment">2 comments</span>
+            </div>
+            <p class="blog-title">12 unique example of portfolio websites</p>
           </div>
         </div>
-        <div class="right">
-          <div class="bg"></div>
-        </div>
+        <button class="blog-card-more">
+          Load more
+          <div class="north-east"></div>
+        </button>
+        <div id="full-blog" class="full-blog hidden"></div>
       </div>
     </div>
     <script src="js/js.js"></script>
